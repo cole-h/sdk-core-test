@@ -1,0 +1,16 @@
+[package]
+name = "sdk-core-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+temporal-client = { git = "https://github.com/temporalio/sdk-core" }
+temporal-sdk = { git = "https://github.com/temporalio/sdk-core" }
+temporal-sdk-core = { git = "https://github.com/temporalio/sdk-core" }
+temporal-sdk-core-api = { git = "https://github.com/temporalio/sdk-core" }
+temporal-sdk-core-protos = { git = "https://github.com/temporalio/sdk-core" }
+
+[patch.'https://github.com/temporalio/sdk-core']
+temporal-sdk-core-protos = { git = "https://github.com/DeterminateSystems/sdk-core", branch = "protos-fix-build-with-nix" }
