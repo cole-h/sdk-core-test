@@ -22,7 +22,6 @@
               lockFile = ./Cargo.lock;
               outputHashes = {
                 "rustfsm-0.1.0" = "sha256-Z7LHN6AF+bJ5Poa7cIqGQlPpX8YBmOpnDX+QqtcyRus=";
-                "temporal-sdk-core-protos-0.1.0" = "sha256-zJTinh/a0baEvLL/DZlyGwiYUk9VIEZmZrQsKXn6n1E=";
               };
             };
             nativeBuildInputs = with pkgs; [ protobuf ];

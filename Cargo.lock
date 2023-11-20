@@ -2101,7 +2101,7 @@ dependencies = [
 [[package]]
 name = "temporal-sdk-core-protos"
 version = "0.1.0"
-source = "git+https://github.com/DeterminateSystems/sdk-core?branch=protos-fix-build-with-nix#fc3576ebe21765bb026717940ab98ce69f6a03e6"
+source = "git+https://github.com/temporalio/sdk-core#2da4d2fa009b61c5674cdb655f10ad84d4c69018"
 dependencies = [
  "anyhow",
  "base64",

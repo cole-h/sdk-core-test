@@ -11,6 +11,3 @@ temporal-sdk = { git = "https://github.com/temporalio/sdk-core" }
 temporal-sdk-core = { git = "https://github.com/temporalio/sdk-core" }
 temporal-sdk-core-api = { git = "https://github.com/temporalio/sdk-core" }
 temporal-sdk-core-protos = { git = "https://github.com/temporalio/sdk-core" }
-
-[patch.'https://github.com/temporalio/sdk-core']
-temporal-sdk-core-protos = { git = "https://github.com/DeterminateSystems/sdk-core", branch = "protos-fix-build-with-nix" }
